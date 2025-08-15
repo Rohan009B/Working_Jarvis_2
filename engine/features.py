@@ -1,0 +1,6 @@
+from playsound import playsound
+
+def playAssistentSound():
+    music_dir="www\\assets\\audio\\start_sound.mp3"
+    playsound(music_dir)
+
