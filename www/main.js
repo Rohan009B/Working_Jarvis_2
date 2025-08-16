@@ -27,3 +27,12 @@ setInterval(animateText, 5000);
 
 // Run the first time immediately
 animateText();
+
+$('#MicBtn').click(function () {
+
+  eel.playAssistentSound();
+  $('#Ovel').prop("hidden", true);
+  $('#SiriWave').prop("hidden", false);
+
+  eel.takeCommand()()
+});
